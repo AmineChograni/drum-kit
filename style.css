@@ -4,10 +4,20 @@
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition: 100px;
+    transition:all .07s;
     width: 100px;
     text-align: center;
     color: #fff;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 5px #000;
+}
+
+.playing{
+    transform:scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10 #ffc600;
+}
+kbd{
+    display: block;
+    font-size: 40px;
 }
